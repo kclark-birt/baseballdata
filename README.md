@@ -11,3 +11,7 @@ http://seanlahman.com/baseball-archive/statistics
 Changes to the orignal data:
 -Imported into MySQL
 -Removed the empty data and replaced it with a valid 'null' for MySQL
+
+
+Import this using something like
+mysql -u user -p foobar < baseballdata.sql
